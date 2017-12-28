@@ -1,14 +1,22 @@
+if [ $(whoami) != root ]
+then
+    echo "need root" && exit
+fi
+
 
 
 ## change to use https://mirror.tuna.tsinghua.edu.cn/help/ubuntu/
-mv /etc/apt/sources.list /etc/apt/old_sources.list
+mv /etc/apt/sources.list /etc/apt/old_sources_`date +%Y-%m-%d-%H-%M-%S`.list
 cp ./sources.list /etc/apt/sources.list
 
 
 
 ## some useful libraries
-apt install vim git python-tk python-pip screen
+apt install vim git python-tk python-pip screen 
 pip install numpy matplotlib pandas pillow tensorflow_gpu scipy fire
+
+## for latex 
+apt install texlive-latex-base  texlive-latex-extra texlive-science
 
 
 
