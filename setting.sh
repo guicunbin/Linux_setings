@@ -26,6 +26,7 @@ apt install texlive-latex-base  texlive-latex-extra texlive-science
 
 ## for vim color
 cp ./vimrc /home/gui/.vimrc
+cp ./bashrc /home/gui/.bashrc
 mkdir /home/gui/.vim/colors
 cp ./vim-colors-solarized/colors/solarized.vim /home/gui/.vim/colors/
 ## for Terminal color
