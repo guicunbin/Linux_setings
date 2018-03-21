@@ -1,4 +1,5 @@
 alias ls='ls --color=auto'
+alias grep='grep --color=auto'
 eval `dircolors ~/.dircolors`
 #PATH=$PATH:~/.local/bin
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/cuda/bin:/usr/local/cuda-8.0/bin"
