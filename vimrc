@@ -17,6 +17,7 @@ set incsearch
 autocmd InsertLeave * se nocul
 autocmd InsertEnter * se cul
 set showcmd
+hi comment ctermfg=0
 
 set nobackup       " no backup files
 set noswapfile     " no swap files
