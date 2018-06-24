@@ -6,6 +6,9 @@
 ### note:
 ##### opencv  
 > https://pan.baidu.com/s/18_KGdvzoileoBonNKQWhcQ
+
+
+> https://drive.google.com/open?id=1VEe-krqTU_jCpaPR7bkX76NBeQMdH_Hn
 ##### vim     
 > https://pan.baidu.com/s/1Q9Kw6eyq4x-9aPZdIZBD8Q
 
